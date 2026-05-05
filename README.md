@@ -1,26 +1,24 @@
 # sales-management-system-uml
 
-🛒 Sistema de Gestão de Vendas – UML
+Sistema de Gestão de Vendas – UML
 
-Este pequeno projeto tem como foco a modelagem de um sistema voltado para gestão comercial. A ideia principal é apresentar como as classes se organizam e como ocorre a relação entre unidades da empresa, colaboradores e clientes no contexto de vendas.
+Este projeto foi desenvolvido com o objetivo de modelar um sistema de gestão comercial. A proposta é apresentar de forma clara como as classes se organizam e como se relacionam dentro do contexto de vendas, envolvendo unidades da empresa, colaboradores e clientes.
 
 Diagrama de Classes
 
-A imagem abaixo ilustra, de forma geral, a estrutura lógica do sistema e suas conexões:
-
+A imagem a seguir representa a estrutura geral do sistema, destacando as principais conexões entre seus elementos:
 Diagrama de Classes (./docs/diagrama_vendas.png)
 
-🛠️ Sobre a Modelagem
+🛠️ Sobre a modelagem
 
-O diagrama foi pensado considerando alguns pontos essenciais:
+O diagrama foi elaborado levando em conta alguns pontos essenciais:
 
-Gestão de Unidades: inclui o cadastro da sede, informações de endereço e acompanhamento de faturamento.
-Recursos Humanos: contempla o controle de funcionários, incluindo níveis de supervisão e hierarquia.
-Processo de Vendas: registra as transações realizadas, relacionando vendedores e clientes.
-CRM Simplificado: permite o cadastro de clientes e a consulta do histórico de compras.
+Gestão de unidades: inclui o cadastro da matriz, informações de endereço e controle de faturamento.
+Recursos humanos: contempla o gerenciamento de funcionários, incluindo níveis hierárquicos e supervisão.
+Processo de vendas: registra as transações realizadas, relacionando vendedores e clientes.
+CRM simplificado: permite o cadastro de clientes e a consulta do histórico de compras.
 Como o projeto foi desenvolvido
-A estrutura foi definida com base nos padrões da UML.
-O diagrama foi gerado em formato de imagem para facilitar a visualização e documentação.
-Existe a possibilidade de implementação futura utilizando linguagens como Java, Python ou C#.
 
-Desenvolvido por Bryan J Bernardi – 2026
+A estrutura foi definida com base nos conceitos da UML. O diagrama foi gerado em formato de imagem para facilitar a visualização e servir como documentação. Há possibilidade de implementação futura utilizando linguagens como Java, Python ou C#.
+
+Desenvolvido por Bryan J. Bernardi – 2026
