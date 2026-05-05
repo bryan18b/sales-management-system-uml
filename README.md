@@ -1,27 +1,26 @@
 # sales-management-system-uml
 
-# 🛒 Sales Management System - UML
+🛒 Sistema de Gestão de Vendas – UML
 
-Este é um mini-projeto focado na modelagem de um sistema de gestão comercial. O objetivo é demonstrar a estrutura de classes e as relações de negócio entre unidades, colaboradores e clientes.
+Este pequeno projeto tem como foco a modelagem de um sistema voltado para gestão comercial. A ideia principal é apresentar como as classes se organizam e como ocorre a relação entre unidades da empresa, colaboradores e clientes no contexto de vendas.
 
 Diagrama de Classes
-Abaixo está a representação visual da lógica do sistema:
 
-Diagrama de Classes(./docs/diagrama_vendas.png)
+A imagem abaixo ilustra, de forma geral, a estrutura lógica do sistema e suas conexões:
 
- 🛠️ Detalhes da Modelagem
+Diagrama de Classes (./docs/diagrama_vendas.png)
 
-O diagrama cobre os seguintes pilares:
+🛠️ Sobre a Modelagem
 
-*Gestão de Unidades: Cadastro de sede, endereço e controle de faturamento.
-*Recursos Humanos:  Controle de funcionários com hierarquia de supervisão.
-*Fluxo de Vendas:       Registro de transações vinculando vendedor e cliente.
-*CRM Básico:              Cadastro de clientes e consulta de histórico de compras.
+O diagrama foi pensado considerando alguns pontos essenciais:
 
-Como este projeto foi feito:
-1. A modelagem foi criada seguindo os padrões UML.
-2. O diagrama foi exportado como imagem para documentação rápida.
-3. (Opcional) Implementação futura prevista para [Java/Python/C#].
+Gestão de Unidades: inclui o cadastro da sede, informações de endereço e acompanhamento de faturamento.
+Recursos Humanos: contempla o controle de funcionários, incluindo níveis de supervisão e hierarquia.
+Processo de Vendas: registra as transações realizadas, relacionando vendedores e clientes.
+CRM Simplificado: permite o cadastro de clientes e a consulta do histórico de compras.
+Como o projeto foi desenvolvido
+A estrutura foi definida com base nos padrões da UML.
+O diagrama foi gerado em formato de imagem para facilitar a visualização e documentação.
+Existe a possibilidade de implementação futura utilizando linguagens como Java, Python ou C#.
 
----
-Desenvolvido por [Bryan J Bernardi] - 2026
+Desenvolvido por Bryan J Bernardi – 2026
