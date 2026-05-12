@@ -1,40 +1,29 @@
-Este é um excelente texto para o seu README.md. Ele está bem estruturado, utiliza uma linguagem profissional e descreve com precisão a intenção do seu projeto.
+# 📊 Sales Management System – UML
 
-Para deixá-lo "padrão GitHub" (utilizando a sintaxe Markdown para realçar a organização que já criamos), você pode ajustá-lo levemente para incluir os blocos de código e a estrutura de pastas.
+Este projeto foi desenvolvido com o objetivo de modelar e implementar a base de um sistema de gestão comercial completo. A proposta apresenta de forma clara como as classes se organizam e se relacionam dentro do contexto de vendas, envolvendo unidades da empresa, colaboradores e clientes.
 
-Aqui está a versão otimizada para o seu arquivo README.md:
+## 🖼️ Diagrama de Classes
+A estrutura geral do sistema destaca as conexões entre os elementos, focando na lógica de negócio e na integridade dos dados:
 
-📊 Sistema de Gestão de Vendas – UML
-Este projeto foi desenvolvido com o objetivo de modelar e prototipar um sistema de gestão comercial. A proposta é apresentar de forma clara como as classes se organizam e se relacionam dentro do contexto de vendas, envolvendo unidades da empresa, colaboradores e clientes.
+![Diagrama de Classes](./docs/diagrama_classes.png)
 
-🖼️ Diagrama de Classes
-A estrutura geral do sistema destaca as conexões entre os elementos, focando na lógica de negócio e integridade dos dados:
+## 🛠️ Sobre a Modelagem
+O diagrama foi elaborado levando em conta pontos essenciais da gestão corporativa moderna:
+* **Gestão de Unidades:** Inclui o cadastro da matriz, informações de endereço e controle de faturamento centralizado através do atributo `renda`.
+* **Recursos Humanos:** Contempla o gerenciamento de funcionários, incluindo níveis hierárquicos e relações de supervisão através da auto-associação `supervisiona`.
+* **Processo de Vendas:** Registra as transações realizadas, relacionando automaticamente o vendedor responsável ao cliente final através da classe `venda`.
+* **CRM Simplificado:** Permite o cadastro de clientes e a consulta rápida do histórico de compras através do método `consultarhistoricodevendas()`.
 
-🛠️ Sobre a Modelagem
-O diagrama foi elaborado levando em conta pontos essenciais da gestão corporativa:
+## 💻 Implementação Técnica
+A estrutura foi definida com base nos conceitos de **Orientação a Objetos (POO)**. O projeto evoluiu de um diagrama estático para um protótipo funcional (MVP):
+* **Backend:** Desenvolvido em **Python (Flask)**, simulando a lógica de negócios e a gestão de dados.
+* **Frontend:** Interface responsiva e moderna em **HTML5/CSS3**.
+* **Lógica de Interface:** Utilização de **JavaScript (ES6+)** para manipulação dinâmica do DOM e comunicação assíncrona com a API (Fetch API).
 
-Gestão de Unidades: Cadastro de unidades, informações de endereço e controle de faturamento centralizado.
-
-Recursos Humanos: Gerenciamento de funcionários, incluindo níveis hierárquicos, cargos e relações de supervisão.
-
-Processo de Vendas: Registro de transações financeiras, relacionando automaticamente vendedores e clientes.
-
-CRM Simplificado: Cadastro de clientes com foco na consulta de histórico de compras e experiência do usuário.
-
-💻 Implementação Técnica
-Embora originado de um conceito UML, o projeto conta com uma implementação funcional (MVP) utilizando:
-
-Backend: Python com Flask para a API REST.
-
-Frontend: JavaScript Moderno (ES6+), HTML5 e CSS3.
-
-Comunicação: JSON para intercâmbio de dados entre cliente e servidor.
-
-📂 Estrutura do Repositório
-texto simples
+## 📂 Estrutura de Pastas
+```text
 comercio_sistema/
-├── backend/          # Servidor API Python (Flask)
-├── frontend/         # Interface Web (HTML/CSS/JS)
-├── docs/             # Documentação e Diagrama UML
-└── README.md         # Documentação principal
-Desenvolvido por Bryan J. Bernardi – 2026
+├── backend/          # Servidor Python e Lógica da API
+├── frontend/         # Interface Web e Integração JS
+├── docs/             # Diagrama UML e Documentação
+└── README.md         # Documentação Principal
